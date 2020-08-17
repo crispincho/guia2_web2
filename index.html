@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>GUIA 2</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td><input id="txtCode" type="text"></td>
+                        <td><input id="txtName" type="text"></td>
+                        <td><input id="txtLastName" type="text"></td>
+                        <td><input id="txtNotes" type="text"></td>
+                        <td><input id="txtAge" type="text"></td>
+                        <td><button class="btn btn-success" onclick="addRow()">Agregar</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="col">Código</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Apellido</th>
+                        <th scope="col">Notas</th>
+                        <th scope="col">edad</th>
+                    </tr>
+                </thead>
+                <tbody id="rows">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <td><input id="txtFindCode" type="text"></td>
+                <button class="btn btn-success" onclick="findByCode()">Buscar</button>
+                <div id="studentDetail">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

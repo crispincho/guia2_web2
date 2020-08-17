@@ -1,0 +1,18 @@
+{
+    "students": [
+        {
+            "code": "98031050723",
+            "name": "Cristian",
+            "lastName": "Rodriguez",
+            "notes": [4.5,3,4.2],
+            "age": "22"
+        },
+        {
+            "code": "98031050724",
+            "name": "Cristian",
+            "lastName": "Rodriguez",
+            "notes": [4.5,3.5,4],
+            "age": "15"
+        }
+    ]
+}
